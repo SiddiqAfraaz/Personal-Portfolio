@@ -1,24 +1,24 @@
 {
-  "name": "personal-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "aos": "^2.3.4",
-    "next": "11.0.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-icons": "^4.2.0",
-    "styled-components": "^5.3.0",
-    "styled-normalize": "^8.0.7"
-  },
-  "devDependencies": {
-    "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1"
-  }
+    "name": "personal-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "nnext start -p $PORT",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "aos": "^2.3.4",
+        "next": "11.0.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-icons": "^4.2.0",
+        "styled-components": "^5.3.0",
+        "styled-normalize": "^8.0.7"
+    },
+    "devDependencies": {
+        "eslint": "7.30.0",
+        "eslint-config-next": "11.0.1"
+    }
 }

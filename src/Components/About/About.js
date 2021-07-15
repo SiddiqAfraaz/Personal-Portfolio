@@ -38,6 +38,7 @@ const About = () => {
                     <SpotifyWrapper>
                         <SpotifyCode
                             src={spotifySong.imageCode}
+                            alt={spotifySong.name + "-Code"}
                             data-aos="fade-right" data-aos-offset="100" data-aos-delay="400" data-aos-once="true" />
                         <SongWrapper
                             data-aos="fade-right" data-aos-offset="100" data-aos-delay="600" data-aos-once="true" >
