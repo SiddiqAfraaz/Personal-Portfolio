@@ -6,6 +6,15 @@ export const FooterSection = styled.div`
     margin-top: 80px;
 `;
 
+export const FooterDivider = styled.div`
+    width: 100%;
+    height: 1px;
+    background-color: ${(props) => props.theme.colors.accent1};;
+    flex-shrink: 0;
+    margin-bottom: 1vh;
+    opacity: 0.2;
+`;
+
 export const Overline = styled.p`
     font-size: 1rem;
     @media (min-width: 1280px) {

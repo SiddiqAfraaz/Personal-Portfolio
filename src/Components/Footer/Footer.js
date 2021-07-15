@@ -1,9 +1,10 @@
 import React from 'react';
 import SocialBar from '../SocialBar/SocialBar';
-import { BottomLine, FooterSection, Overline, SocialContainer, Text } from './FooterStyles';
+import { BottomLine, FooterDivider, FooterSection, Overline, SocialContainer, Text } from './FooterStyles';
 
 const Footer = () => (
     <FooterSection>
+        <FooterDivider />
         <Overline>PING ME!</Overline>
         <Text
             onClick={() => window.open("mailto:siddiqafraaz@gmail.com", "SiddiqAfraaz")}>

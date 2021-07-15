@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const AOSWrapper = styled.div`
+    display: flex;
+`;
+
 export const HeaderWrapper = styled.div`
     display: flex;
     justify-content: space-between;
@@ -78,7 +82,7 @@ export const UpperText = styled.h1`
     @media (min-width: 768px) {
         position: absolute;
         top: 28%;
-        left: 16%;
+        left: 14.5%;
         mix-blend-mode: difference;
         font-size: min(7vw, 25rem);
     }
@@ -90,7 +94,7 @@ export const LowerText = styled.h1`
     @media (min-width: 768px) {
         position: absolute;
         bottom: 38%;
-        right: 16.5%;
+        right: 15.3%;
         mix-blend-mode: difference;
         font-size: min(7vw, 25rem);
     }
@@ -101,6 +105,7 @@ export const SubText = styled.p`
     font-weight: 400;
     margin: 0;
     opacity: 0.5;
+    width: 100%;
     @media (min-width: 768px) {
         text-align: center;
     }

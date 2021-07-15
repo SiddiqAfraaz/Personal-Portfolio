@@ -12,7 +12,6 @@ export default function Home() {
       <Head>
         <title>Siddiq Afraaz | Personal Portfolio</title>
       </Head>
-
       <Container>
         <Hero />
         <Works />

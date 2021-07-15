@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    overflow: hidden;
     padding: 2.5rem;
     @media only screen and (min-width: 1280px) {
-        padding: 2vw;
+        padding: 3vw;
     }
 `;
 
@@ -15,7 +16,7 @@ export const Section = styled.div`
         height: ${(props) => (props.hero && "87vh")};
     }
     @media only screen and (min-width: 1280px) {
-        height: ${(props) => (props.hero && "95vh")};
+        height: ${(props) => (props.hero && "90vh")};
     }
 `;
 

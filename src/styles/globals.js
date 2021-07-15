@@ -5,6 +5,28 @@ const GlobalStyles = createGlobalStyle`
   ${normalize};
 
   html {
+  --thumbBG: #555;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) ${props => props.theme.colors.background};
+}
+body::-webkit-scrollbar-track {
+  background: ${props => props.theme.colors.background};
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid ${props => props.theme.colors.background};
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: ${props => props.theme.colors.accent2};
+}
+
+  html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 
