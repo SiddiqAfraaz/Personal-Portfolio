@@ -1,6 +1,6 @@
 export const socialHandles = {
     instagram: "https://instagram.com/SiddiqAfraaz",
-    linkedin: "https://linkedin.com/SiddiqAfraaz",
+    linkedin: "https://linkedin.com/in/SiddiqAfraaz",
     twitter: "https://twitter.com/SiddiqAfraaz",
     github: "https://github.com/SiddiqAfraaz",
 };
