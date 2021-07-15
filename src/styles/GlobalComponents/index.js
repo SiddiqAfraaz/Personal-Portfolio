@@ -4,7 +4,7 @@ export const Container = styled.div`
     overflow: hidden;
     padding: 2.5rem;
     @media only screen and (min-width: 1280px) {
-        padding: 3vw;
+        padding: 2vw 3vw;
     }
 `;
 
@@ -13,7 +13,7 @@ export const Section = styled.div`
     flex-direction: column;
     justify-content: space-between;
     @media only screen and (max-width: 539px) {
-        height: ${(props) => (props.hero && "87vh")};
+        height: ${(props) => (props.hero && "85vh")};
     }
     @media only screen and (min-width: 1280px) {
         height: ${(props) => (props.hero && "90vh")};

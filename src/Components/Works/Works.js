@@ -19,13 +19,13 @@ const Works = () => {
         <Section>
             <SectionDivider
                 id="works"
-                data-aos="fade-down" data-aos-offset="300" data-aos-delay="100" data-aos-once="true" />
+                data-aos="fade-down" data-aos-offset="100" data-aos-delay="100" data-aos-once="true" />
             <SectionTitle
-                data-aos="fade-down" data-aos-offset="300" data-aos-delay="100" data-aos-once="true" >
+                data-aos="fade-down" data-aos-offset="100" data-aos-delay="100" data-aos-once="true" >
                 Notable Works
             </SectionTitle>
             <SectionText
-                data-aos="fade-down" data-aos-offset="300" data-aos-delay="200" data-aos-once="true" >
+                data-aos="fade-down" data-aos-offset="100" data-aos-delay="200" data-aos-once="true" >
                 I have worked on many different kinds of projects. Listed here are some of the my most notable works,
             </SectionText>
             <SectionBreak />
@@ -33,7 +33,7 @@ const Works = () => {
                 {projects.map((work, i) => (
                     <Project
                         key={work.id}
-                        data-aos="fade-down" data-aos-offset="300" data-aos-delay={300 + (100 * i)} data-aos-once="true" >
+                        data-aos="fade-down" data-aos-offset="100" data-aos-delay={300 + (100 * i)} data-aos-once="true" >
                         <ContentWrapper>
                             <ProjectImage src={work.image} alt={work.title + "-logo"} />
                             <br />

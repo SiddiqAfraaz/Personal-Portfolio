@@ -81,8 +81,8 @@ export const UpperText = styled.h1`
     margin: 0;
     @media (min-width: 768px) {
         position: absolute;
-        top: 28%;
-        left: 14.5%;
+        top: 27%;
+        left: 14.8%;
         mix-blend-mode: difference;
         font-size: min(7vw, 25rem);
     }
@@ -93,7 +93,7 @@ export const LowerText = styled.h1`
     margin: 0;
     @media (min-width: 768px) {
         position: absolute;
-        bottom: 38%;
+        bottom: 37%;
         right: 15.3%;
         mix-blend-mode: difference;
         font-size: min(7vw, 25rem);
