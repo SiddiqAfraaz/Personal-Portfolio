@@ -33,7 +33,7 @@ const Works = () => {
                 {projects.map((work, i) => (
                     <Project
                         key={work.id}
-                        data-aos="fade-down" data-aos-offset="100" data-aos-delay={300 + (100 * i)} data-aos-once="true" >
+                        data-aos="fade-right" data-aos-offset="100" data-aos-delay={300 + (100 * i)} data-aos-once="true" >
                         <ContentWrapper>
                             <ProjectImage src={work.image} alt={work.title + "-logo"} />
                             <br />

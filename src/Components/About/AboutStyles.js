@@ -20,7 +20,7 @@ export const SongWrapper = styled.div`
 `;
 
 export const OverlineText = styled.p`
-    font-size: min(3.3vw, 2rem);
+    font-size: min(3vw, 2rem);
     padding: 10px;
     padding-bottom: 0;
     margin: 0;

@@ -9,15 +9,15 @@ export const projects = [
     {
         title: 'WATCHIT™',
         description: "A Movie Guide App made using React and Material UI.",
-        image: '/images/Watchit.png',
+        image: '/images/Watchit.svg',
         source: 'https://github.com/SiddiqAfraaz/WATCHiT',
-        visit: 'https://watchittm.herokuapp.com',
+        visit: 'https://watchittm.vercel.app',
         id: 0,
     },
 ];
 
 export const spotifySong = {
-    name: "Nee Kavithaigala",
-    link: "https://open.spotify.com/track/6R0FwF48PO2BrdZpLeWi42?si=d6cab15e50ea4476",
-    imageCode: "/images/SongCode.png",
+    name: "Nenjame",
+    link: "https://open.spotify.com/track/491DwnBb3MA8RzyA2E0Skt?si=64333c791b8a40b6",
+    imageCode: "/images/SongCode.svg",
 };
