@@ -66,6 +66,7 @@ export const ButtonGroup = styled.div`
     @media (min-width: 1280px) {
         right: 0; 
         width: 0;
+        height: 100%;
         transition: width 0.2s ease-out;
         ${Project}:hover & {
             width: 20%;

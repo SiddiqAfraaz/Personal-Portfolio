@@ -64,14 +64,10 @@ export const MainImage = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5vh 8vh;
+    padding: 3vh 5vh;
     margin: auto 0;
-    @media (min-width: 640px) {
-        padding: 5vh 28vw;
+    @media (min-width: 768px) {
         width: 30vw;
-    }
-    @media (min-width: 1280px) {
-        padding: 5vh 5vw;
     }
 `;
 
