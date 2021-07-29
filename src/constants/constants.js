@@ -17,7 +17,7 @@ export const projects = [
 ];
 
 export const spotifySong = {
-    name: "Nenjame",
-    link: "https://open.spotify.com/track/491DwnBb3MA8RzyA2E0Skt?si=64333c791b8a40b6",
+    name: "Tears of Love",
+    link: "https://open.spotify.com/playlist/5CdXCu5cnSs8h6IRgWuXBF?si=7a04f052ffa74831",
     imageCode: "/images/SongCode.svg",
 };
